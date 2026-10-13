@@ -8,6 +8,7 @@
     "light": "/images/wordmark-white.png",
     "dark": "/images/wordmark-white.png"
   },
+  "favicon": "/images/favicon.png",
   "colors": {
     "primary": "#2832FA",
     "light": "#2832FA",
