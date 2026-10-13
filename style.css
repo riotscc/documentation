@@ -1,0 +1,212 @@
+
+:root,
+:root.dark,
+html.dark {
+  --background: #050507 !important;
+  --background-primary: #050507 !important;
+  --background-secondary: #050507 !important;
+  --color-background: #050507 !important;
+  --color-background-primary: #050507 !important;
+  --color-background-secondary: #050507 !important;
+}
+
+html,
+html.dark,
+body,
+#__next,
+#body-content,
+#background-color,
+#content-area,
+#sidebar,
+#sidebar-content {
+  background: #050507 !important;
+  background-color: #050507 !important;
+}
+
+html,
+body {
+  transition: background-color 0s !important;
+}
+
+#sidebar,
+#sidebar-content,
+#content-area {
+  transition: background-color 0s !important;
+}
+
+#search-bar-entry,
+#search-bar-entry-mobile,
+#search-bar-entry *,
+#search-bar-entry-mobile * {
+  background-color: #050507 !important;
+  background-image: none !important;
+}
+
+#sidebar > :last-child,
+#sidebar > :last-child > *,
+#sidebar > :last-child a,
+#sidebar > :last-child button {
+  background-color: #050507 !important;
+  background-image: none !important;
+}
+
+#pagination {
+  background-color: #101012 !important;
+  background-image: none !important;
+  margin-top: 3rem !important;
+  border-radius: 1rem !important;
+}
+
+#pagination > *,
+#pagination a,
+#pagination button,
+.pagination-prev,
+.pagination-next {
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+#pagination .pagination-title,
+#pagination .pagination-description {
+  background-color: transparent !important;
+}
+
+.card,
+#content .card,
+#content-area .card,
+.card-group .card,
+[data-component-part="card-content-container"] {
+  background-color: #141414 !important;
+  background-image: none !important;
+}
+
+html.dark #sidebar [class*="bg-"],
+html.dark #sidebar [class*="bg-"] > *,
+html.dark #search-bar-entry[class*="bg-"] {
+  background-color: #050507 !important;
+}
+
+html.dark #pagination[class*="bg-"] {
+  background-color: #101012 !important;
+}
+
+html.dark #pagination [class*="bg-"] {
+  background-color: transparent !important;
+}
+
+html.dark .card[class*="bg-"] {
+  background-color: #141414 !important;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none !important;
+  background-color: #050507 !important;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+#sidebar,
+#sidebar-content,
+aside,
+main,
+article,
+nav,
+[class*="overflow-y-auto"],
+[class*="overflow-y-scroll"] {
+  scroll-behavior: smooth !important;
+}
+
+* {
+  scroll-padding-top: 5rem;
+}
+
+html.dark [role="tablist"] [role="tab"],
+html.dark [role="tablist"] [role="tab"][aria-selected="true"],
+html.dark [role="tablist"] [role="tab"][aria-selected="false"],
+html.dark nav a[aria-current="page"] {
+  border-bottom: 0 !important;
+  border-bottom-color: transparent !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+}
+
+html.dark [role="tablist"] [role="tab"]::before,
+html.dark [role="tablist"] [role="tab"]::after,
+html.dark nav a[aria-current="page"]::before,
+html.dark nav a[aria-current="page"]::after {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+html.dark nav:has(a[href]) > a[aria-current="page"] {
+  border-bottom-color: transparent !important;
+}
+
+html.dark [role="tablist"] [data-state="active"] {
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+}
+
+html.dark [role="tablist"] [data-state="active"]::after,
+html.dark [role="tablist"] [data-state="active"]::before {
+  background: transparent !important;
+}
+
+html.dark [class*="tab"][class*="active"]::after,
+html.dark [class*="tab"][class*="selected"]::after {
+  background-color: transparent !important;
+}
+
+html.dark header nav a,
+html.dark header nav button,
+html.dark header nav [role="tab"] {
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+}
+
+html.dark header nav a::before,
+html.dark header nav a::after,
+html.dark header nav button::before,
+html.dark header nav button::after,
+html.dark header nav [role="tab"]::before,
+html.dark header nav [role="tab"]::after {
+  border: 0 !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+html.dark header nav [class*="bg-primary"][class*="absolute"],
+html.dark header nav [class*="bg-primary"][class*="bottom-"],
+html.dark header nav [class*="border-primary"],
+html.dark header nav [class*="indicator"] {
+  background-color: transparent !important;
+  border-bottom-color: transparent !important;
+}
+
+html.dark div.absolute.bottom-0.bg-primary,
+html.dark div.absolute.bottom-0.dark\:bg-primary-light {
+  display: none !important;
+}
+
+html.dark #sidebar a[aria-current="page"],
+html.dark #sidebar-content a[aria-current="page"],
+html.dark aside a[aria-current="page"],
+html.dark #sidebar a[data-active="true"],
+html.dark #sidebar-content a[data-active="true"],
+html.dark aside a[data-active="true"] {
+  color: #2832FA !important;
+  border-left: 2px solid #2832FA !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html,
+  body,
+  * {
+    scroll-behavior: auto !important;
+  }
+}

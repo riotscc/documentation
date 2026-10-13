@@ -1,0 +1,216 @@
+
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "maple",
+  "name": "Riots.cc",
+  "description": "Make the internet remember you.",
+  "logo": {
+    "light": "/images/wordmark-white.png",
+    "dark": "/images/wordmark-white.png"
+  },
+  "colors": {
+    "primary": "#2832FA",
+    "light": "#2832FA",
+    "dark": "#2832FA"
+  },
+  "appearance": {
+    "default": "dark",
+    "strict": true
+  },
+  "background": {
+    "color": {
+      "light": "#050507",
+      "dark": "#050507"
+    }
+  },
+  "icons": {
+    "library": "fontawesome"
+  },
+  "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Open app",
+          "icon": "/images/external-link.svg",
+          "href": "https://riots.cc"
+        },
+        {
+          "anchor": "Discord",
+          "icon": "https://cdn.simpleicons.org/discord/929292",
+          "href": "https://discord.gg/riotscc"
+        }
+      ]
+    },
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "icon": "book-open",
+        "groups": [
+          {
+            "group": "Start here",
+            "icon": "/images/icons/rocket.svg",
+            "pages": [
+              "index",
+              "quickstart",
+              "getting-started/create-account",
+              "getting-started/claim-username",
+              "getting-started/setup-profile",
+              "getting-started/publish-profile"
+            ]
+          },
+          {
+            "group": "Dashboard",
+            "icon": "/images/icons/dashboard.svg",
+            "pages": [
+              "customize/dashboard",
+              "dashboard/overview",
+              "dashboard/profile-editor",
+              "dashboard/live-preview",
+              "dashboard/settings"
+            ]
+          },
+          {
+            "group": "Appearance",
+            "icon": "/images/icons/appearance.svg",
+            "pages": [
+              "customize/appearance",
+              "customize/avatars-and-banners",
+              "customize/backgrounds",
+              "customize/colors-and-themes",
+              "customize/fonts",
+              "customize/effects",
+              "customize/custom-cursors"
+            ]
+          },
+          {
+            "group": "Links & Content",
+            "icon": "/images/icons/links.svg",
+            "pages": [
+              "content/social-links",
+              "content/custom-links",
+              "content/embeds",
+              "content/media",
+              "content/widgets",
+              "content/link-management"
+            ]
+          },
+          {
+            "group": "Your public page",
+            "icon": "/images/icons/globe.svg",
+            "pages": [
+              "page/visitor-experience",
+              "page/profile-layout",
+              "page/sharing",
+              "page/mobile-experience",
+              "page/visibility"
+            ]
+          },
+          {
+            "group": "Account",
+            "icon": "/images/icons/account.svg",
+            "pages": [
+              "account/overview",
+              "account/profile-settings",
+              "account/connections",
+              "account/security",
+              "account/sessions",
+              "account/privacy",
+              "account/delete-account"
+            ]
+          },
+          {
+            "group": "Analytics",
+            "icon": "/images/icons/analytics.svg",
+            "pages": [
+              "analytics/overview",
+              "analytics/profile-views",
+              "analytics/visitors",
+              "analytics/link-clicks"
+            ]
+          },
+          {
+            "group": "Plans & Features",
+            "icon": "/images/icons/premium.svg",
+            "pages": [
+              "plans/overview",
+              "plans/free",
+              "plans/premium",
+              "plans/feature-comparison",
+              "plans/billing"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Help Centre",
+        "icon": "headset",
+        "groups": [
+          {
+            "group": "Support",
+            "icon": "/images/icons/support.svg",
+            "pages": [
+              "help",
+              "help/faq",
+              "help/troubleshooting",
+              "help/contact",
+              "help/report-bug"
+            ]
+          },
+          {
+            "group": "Account Help",
+            "icon": "/images/icons/account.svg",
+            "pages": [
+              "help/login-issues",
+              "help/account-recovery",
+              "help/username-issues",
+              "help/profile-issues"
+            ]
+          },
+          {
+            "group": "Safety & Privacy",
+            "icon": "/images/icons/shield.svg",
+            "pages": [
+              "help/account-safety",
+              "help/privacy",
+              "help/report-abuse",
+              "help/community-guidelines"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Website",
+        "href": "https://riots.cc"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Get Started",
+      "href": "https://riots.cc/signup"
+    }
+  },
+  "footer": {
+    "socials": {
+      "discord": "https://discord.gg/riots",
+      "website": "https://riots.cc"
+    }
+  },
+  "errors": {
+    "404": {
+      "redirect": false,
+      "title": "Page not found",
+      "description": "Looks like this page doesn't exist. Head back to the documentation or explore Riots.cc."
+    }
+  },
+  "contextual": {
+    "options": [
+      "chatgpt",
+      "perplexity"
+    ],
+    "display": "header"
+  }
+}
